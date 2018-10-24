@@ -1,0 +1,26 @@
+{
+  "name": "angularjstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular-route": "^1.7.5",
+    "bootstrap": "^4.1.3",
+    "angular": "^1.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladdes/angularjstest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladdes/angularjstest/issues"
+  },
+  "homepage": "https://github.com/vladdes/angularjstest#readme"
+}

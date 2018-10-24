@@ -1,18 +1,15 @@
-(() => {
+(function(){
     
     var app = angular.module('customersApp', ['ngRoute']);
-    app.config(($routeProvider) => {
+
+    
+    app.config(function($routeProvider) {
         $routeProvider
-            .when('/', 
-            {
+            .when('/', {
                 controller: 'CustomersController',
-                templateUrl: '/app/views/customers.html'
-            })
-            .when('/order',
-                {
-                controller: 'OrdersController',
-                templateUrl: '/app/views/orders.html'
+                templateUrl: 'app/views/customers.html'
             })
             .otherwise({ redirectTo: '/'});
     });
-})();
+}());
+
