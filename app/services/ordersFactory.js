@@ -76,7 +76,7 @@
            
         var factory = {};
         
-        factory.getAmountOfOrders = function(customerId) {
+        factory.getAmountOfOrders = function() {
             
             return customers;
         };

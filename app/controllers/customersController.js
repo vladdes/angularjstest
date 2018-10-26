@@ -5,6 +5,7 @@
         
         function init() {
             $scope.customers = customersFactory.getCustomers();
+            $scope.customersAmount = ordersFactory.getAmountOfOrders().length;
         }
         
         init();
@@ -14,7 +15,7 @@
             $scope.reverse = !$scope.reverse;
         };  
         
-       
+        
     };
     
     CustomersController.$inject = ['$scope', 'customersFactory', 'ordersFactory'];
